@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@200&family=Jost:wght@300&family=Luckiest+Guy&family=Montserrat&family=Nunito:wght@200&family=Paytone+One&family=Poiret+One&family=Poppins:wght@300&family=Titan+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color: var(--color2);
+}
+
+:root{
+    --color1: #A3705C;
+    --color2: #6F4C3F;
+    --color3: #FFDD82;
+}
+
+.msgdiv{
+	text-align: center;
+	font-family: 'poppins';
+	font-size: 14px;
+	font-weight: bolder;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: red;
+}
+
+.msg{
+	letter-spacing:2px;
+	margin: 12px;
+}
+
+
+a.deletecard {
+	display: block;
+	width: 80%;
+	text-align: right;
+	padding-right: 12px;
+	color: red;
+	text-decoration: none;
+	margin: 24px auto 8px auto;
+}
+
+
+nav {
+    height: 72px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    padding: 32px;
+    padding-bottom: 64px;
+    z-index: 9;
+    color: var(--color2);
+}
+
+nav p{
+	font-family:'jost';
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    position: absolute;
+    left:0;
+	right: 0;
+	text-align: center;
+}
+
+nav i{
+    margin-left: 12px;
+}
+
+nav a{
+	text-decoration: none;
+	display: inline;
+}
+
+.main-container{
+    display: flex;
+    margin: 24px auto 52px auto;
+    height: 90vh;
+    width: 80%;
+    box-shadow: 2px 2px 16px 1px grey;
+    border-radius: 8px;
+}
+
+/* ================================== left-section  ================================================ */
+
+
+.left-section{
+    height: 100%;
+    width: 40%;
+    background: rgb(111,76,63);
+    background: linear-gradient(142deg, rgba(111,76,63,1) 0%, rgba(163,112,92,1) 45%, rgba(255,221,130,1) 100%);
+    position: relative;
+}
+
+
+.left-section .circle{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 48px;
+    padding: 12px;
+    box-sizing: content-box;
+}
+
+.circle p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.circle .price{
+    font-size: 32px;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+
+.left-section a{
+    text-align: end;
+    color: white;
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    bottom: 48px;
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+/* ================================== right-section  ================================================ */
+
+.right-section{
+    height: 100%;
+    width: 60%;
+    background-color: snow;
+    padding: 32px 48px;
+}
+
+.right-section p{
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+hr{
+    margin-bottom: 32px;
+    width: 80px;
+    height: 8px;
+    background-color: var(--color2);
+}
+
+label{
+    font-size: medium;
+}
+
+input, button[type="submit"]{
+    width: 100%;
+    margin: 8px 0;
+    height: 48px;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.exp-cvv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-input, .cvv{
+    width: 40%;
+}
+
+.exp-input input{
+    width: 40%;
+}
+
+
+button[type="submit"]{
+    background-color: transparent;
+    transition: transform 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color2);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+button[type="submit"]:hover i{
+    color: white;
+}
+
+
+
+
+.footer{
+    margin: 0;
+    display: block;
+    position: relative;
+    top: -12px;
+    color: white;
+}
+
+.footer .tagline{
+    height: 30px;
+    background-color: var(--color2);
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 6px;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    font-family:'Montserrat';
+}
+
+.footer .brand-name{
+    font-family:'jost';
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 24px ;
+    color: white;
+}
+
+.footerdiv, .footer .brand-name{
+	background-color: var(--color2);
+}
+
+
+.footer .footerdiv{
+    display: flex;
+}
+
+.footer .footerdiv .fo{
+    min-height:260px;
+    margin-bottom: 8px;
+    width: 33.33%;
+    padding: 24px;
+    
+}
+
+.fo .head{
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 48px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.contactus .addr, .devinfo .links, .followlinks a{
+    font-family: 'Montserrat';
+    line-height: 32px;
+    color: white;
+}
+
+p.addr b{
+	color: white;
+}
+
+.followlinks a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.footer .blinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    padding-bottom: 16px;
+    border: 0 solid gray;
+    border-top-width: 1px;
+}
+
+.blinks .footc{
+    font-size: 12px;
+    color: gray;
+    font-family:'Montserrat';
+}
