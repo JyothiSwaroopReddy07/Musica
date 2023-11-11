@@ -1,5 +1,6 @@
 <div align="center">
 <h1 align="center">
+    
 ![musica](https://github.com/JyothiSwaroopReddy07/Musica/assets/107217455/f669dfb4-4a08-4965-b992-0700db002836)
 
 <br>MUSICA</h1>
